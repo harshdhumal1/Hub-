@@ -1,0 +1,150 @@
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f3f4f6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    background: #007b;
+    color: #fff;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+.navigation {
+    margin-top: 25px;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  
+  header nav a:hover
+{
+    color: #ffc107;
+}
+
+/* Mission Section */
+.mission {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.services {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+.services-gridimg{
+    box-sizing: content-box;
+
+}
+.services h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/* Impact Section */
+.impact {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.impact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.impact p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Footer Styles */
+.footer {
+    background-color: white ; /* Dark background */
+    color: #333;           /* White text */
+    text-align: center;    /* Center text */
+    padding: 20px 0;    /* Add padding */
+    width: 100%;          /* Fixed width */
+    margin: 20px auto;     /* Center align using margin */
+    border-radius: 8px;    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 14px;
+}
